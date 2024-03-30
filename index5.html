@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #302b2b;
+            display: flex;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container{
+            max-width: 1200px;
+            width: 100%;
+        }
+       h1{
+            text-align: center;
+            color: #ac2a55;
+            
+        }
+        .multi-columns{
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+        }
+        .colum{
+            width: 30%;
+            background-color: #fff;
+            border: 5px solid black;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .colum> .heading{
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 0px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .colum >img{
+            width: 150px;
+        }
+        .content{
+            padding: 0px 20px;
+        }
+        .column-1{
+            background-color: #35bdd0;
+            color: #302b2b;
+        }
+        .column-2{
+            background-color: #e03b8b;
+            color: #302b2b;
+        }
+        .column-3{
+            background-color: #5a20cb;
+            color: #302b2b;
+        };
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Full Stack web Devlopment</h1>
+        <section class="multi-columns">
+            <div class="colum column-1">
+                <p class="heading">HTML</p>
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png" alt="HTML">
+                <p class="content">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum natus dolore, quas minus cu
+                    m porro nesciunt quod nihil eaque ipsum praesentium doloremque, reiciendis quidem vero itaque
+                     sint provident iure ratione laborum est commodi. Earum neque rem cumque, harum velit nam culpa
+                      molestias vero ipsam repellendus provident? Itaque consequatur quos recusandae, accusamus minima 
+                      quibusdam vitae neque magnam culpa quis quidem eaque dolores distinctio quo exercitationem, quisquam
+                       nemo assumenda laborum illo. Eius porro veniam asperiores repudiandae perspiciatis quasi. Sit quod quidem,
+                        deleniti, repudiandae, culpa voluptate tenetur illo accusantium magnam enim vero minus eius veritatis. Veritatis 
+                        obcaecati temporibus quo
+                     nesciunt sed, quod ipsum!
+                </p>
+            </div>
+            <div class="colum column-2">
+                <p class="heading">CSS</p>
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS logo">
+                <p class="content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, eos quaerat expedita voluptatibus rerum maiores voluptate deserunt, doloremque, est consequuntur reiciendis illum cumque placeat aliquam molestias culpa dolores recusandae repudiandae. Accusantium earum quasi et fugit repudiandae, placeat quibusdam! Accusantium nemo deserunt, totam repellendus adipisci ex accusamus suscipit, molestias eligendi ullam non nesciunt vitae enim at nam unde recusandae ad delectus consectetur eos magnam cupiditate aliquid aspernatur? Fuga ad tempore optio fugiat quis molestias quaerat ut maxime dolore nulla tempora ea voluptatem, hic ipsum quam quia laudantium atque, dolorem corporis dicta! Voluptates obcaecati sint quibusdam quas dignissimos cupiditate minima vitae odit.
+                </p>
+            </div>
+            <div class="colum column-3">
+                <p class="heading">Java-script</p>
+                <img src="data:image/png;base64,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" alt="java-script logo">
+                <p class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid itaque dignissimos vitae culpa, maiores iure nihil autem in adipisci, et laudantium asperiores placeat maxime impedit saepe? Qui accusamus iusto quis sunt eaque sapiente eveniet incidunt quas, corporis fugit id et impedit officia recusandae dolorum autem vel quisquam aliquid repellendus quos quod nesciunt obcaecati cum dolore. Illum iusto reiciendis obcaecati soluta vitae quibusdam voluptate! Error, natus. Consectetur natus velit nobis deleniti assumenda esse. Nemo iure earum quia culpa unde veniam molestias fugit illum, quae ullam et sint ut vero. Quidem pariatur porro rem, magni illo hic nostrum ipsam eaque nisi!
+
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
